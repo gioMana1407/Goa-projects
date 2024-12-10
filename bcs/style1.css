@@ -1,0 +1,65 @@
+.body-1 {
+    background-image: url(./assets/images/pink.png);
+}
+.saul {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-2 {
+    background-image: url(./assets/images/pink.png);
+}
+.kim {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-3 {
+    background-image: url(./assets/images/pink.png);
+}
+.mike {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-4 {
+    background-image: url(./assets/images/pink.png);
+}
+.gus {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nacho {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-5 {
+    background-image: url(./assets/images/pink.png);
+}
+.body-6 {
+    background-image: url(./assets/images/pink.png);
+}
+.lalo {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-7 {
+    background-image: url(./assets/images/pink.png);
+}
+.howard {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    border-radius: 3px;
+    border: 1px solid yellow;
+    width: 90px;
+    height: 33px;
+    background-color: rgb(206, 84, 111);
+    color: aliceblue;
+    
+}
+button:hover {
+    background-color: rgb(215, 99, 120);
+}
+button a {
+    text-decoration: none;
+    
+}

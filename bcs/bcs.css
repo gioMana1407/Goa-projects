@@ -1,0 +1,126 @@
+body {
+    background-image: url(./assets/images/bcs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.children1 {
+    display: flex;
+    font-size: larger;
+    gap: 0px;
+    text-align: center;
+    width: 1348px;
+    height: 58px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px;
+    margin: 90px 150px;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 4px;
+    font-style: initial;
+    
+}
+.children2 {
+    width: 430px;
+    height: 280px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(221, 212, 212);
+    margin-top: 170px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+    
+}
+.tv-show {
+    font-style: oblique;
+    font-size: xx-large;
+    margin: 10px 95px;
+    margin-bottom: 20px;
+}
+
+.vince {
+    margin-left: 320px;
+    
+    
+}
+
+.bcs1 {
+    margin-left: 147px;
+    
+    font-size: xx-large;
+    color: crimson;
+    margin-top: 7px;
+    
+    
+}
+.charr-1 a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 11px;
+    box-shadow: 2px 2px 3px;
+    
+}
+.char-1 button {
+    width: 163px;
+    height: 60px;
+    margin-right: 12px;
+    background-color: rgb(204, 113, 113);
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    color: rgb(199, 222, 243);
+    cursor: pointer;
+}
+.char-1 .charr-1 {
+    display: none;
+    position: absolute;
+    background-color: cadetblue;
+}
+.char-1:hover .charr-1{
+    display: block;
+
+}
+.char-1:hover button {
+    background-color: rgb(215, 125, 125);
+}
+
+.char-2 button {
+    width: 163px;
+    height: 60px;
+    margin-right: 100px;
+    background-color: rgb(204, 113, 113);
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    color: rgb(199, 222, 243);
+    cursor: pointer;
+}
+.charr-2 a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 11px;
+    box-shadow: 2px 2px 3px;
+    
+}
+.char-2 .charr-2 { 
+    display: none;
+    position: absolute;
+    background-color: cadetblue;
+    min-width: 162px;
+}
+
+.char-2:hover .charr-2 {
+    display: block;
+}
+.char-2:hover button {
+    background-color: rgb(215, 125, 125);
+}
+.parent {
+    gap: -80px;
+}

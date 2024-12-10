@@ -1,0 +1,23 @@
+body {
+    background-image: url(./assets/images/pink.png);
+}
+p {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    border-radius: 3px;
+    border: 1px solid yellow;
+    width: 90px;
+    height: 33px;
+    background-color: rgb(206, 84, 111);
+    color: aliceblue;
+    
+}
+button:hover {
+    background-color: rgb(215, 99, 120);
+}
+button a {
+    text-decoration: none;
+    
+}

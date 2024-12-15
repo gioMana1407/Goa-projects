@@ -1,0 +1,305 @@
+body {
+    background-color: rgb(30, 32, 36);
+    padding-top: 120px;
+    margin-bottom: 170px;
+    
+    
+}
+.poster {
+    width: 300px;
+    height: 450px;
+    object-fit: contain;
+    object-fit: cover;
+    margin-left: 100px;
+    display: inline-block;
+    justify-items: start;
+   
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 90px;
+    background-color: rgb(23, 25, 28);
+    align-items: center;
+    padding-right: 80px;
+    flex: 1;
+    color: white;
+    padding-left: 110px;
+    z-index: 10;
+}
+
+
+input {
+    height: 30px;
+    width: 250px;
+    color: rgb(175, 175, 175);
+    background-color: rgb(34, 36, 37);
+    border-radius: 4px;
+    border: none;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.films {
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.shoping {
+    padding-left: 25px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.mykadri-1:hover {
+    cursor: pointer;
+}
+.series {
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.anime {
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.sun {
+    padding-right: 25px;
+    padding-left: 40px;
+}
+.facebook {
+    padding-right: 10px;
+}
+.search-icon {
+    position: relative;
+    position: absolute;
+    right: 118px;
+    top: 30px;
+}   
+
+.movie-player {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    padding-right: 300px;
+    background-color: rgb(23, 25, 28);;
+    width: 500px;
+    height: 35px;
+    align-items: center;
+    color: rgb(175, 175, 175);
+    border-radius: 4px;
+    margin-left: 420px;
+
+}
+
+.vidio {
+    padding-left: 15px;
+}
+.player-0 {
+    background-color: rgb(250, 183, 0);
+    color: black;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 6.5px;
+    padding-right: 10px;
+    border-radius: 3px;
+    align-items: center;
+    font-size: large;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.geo {
+    position: relative;
+    position: absolute;
+    left: 125px;
+    top: 580px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    border-radius: 2px;
+    padding: 2px 2px 3px 3px;
+    font-size: small;
+}
+.eng {
+    position: relative;
+    position: absolute;
+    left: 365px;
+    top: 580px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    border-radius: 2px;
+    padding: 2px 2px 3px 3px;
+    font-size: small;
+}
+.our-player:hover {
+    color: white;
+    cursor: pointer;
+}
+.england:hover {
+    color: white;
+    cursor: pointer;
+}
+.not-working:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.prewiew-movie {
+    padding-top: 10px;
+    height: 440px;
+    width: 1120px;
+    background-color: rgb(23, 25, 28);
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.lif {
+    font-size: x-large;
+    padding-bottom: 5px;
+}
+.imdb {
+    padding-top: 15px;
+    padding-bottom: 8px;
+
+}
+.cast, .views, .producer, .category, .release-date {
+    padding-bottom: 7px;
+}
+.mokle-agwera {
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+
+.plot {
+    padding-bottom: 20px;
+}
+.yellow {
+    color: rgb(250, 183, 0);
+}
+.gray {
+    color: rgb(158, 158, 158);
+}
+
+.white {
+    color: white;
+}
+.button-1 {
+    position: relative;
+    position: absolute;
+    left: 107px;
+    top: 130px;
+    width: 302px;
+    background-color: rgb(250, 183, 0);
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.camera {
+    position: relative;
+    position: absolute;
+    left: 208px;
+    top: 140px;
+    
+}
+.heart {
+    position: relative;
+    position: absolute;
+    left: 119px;
+    top: 170px;
+}
+.posterss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.recomended {
+    padding-left: 100px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    font-size: larger;
+    color: white;
+}
+.m1917:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.pyjamas:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.spr:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.schindlers-list:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.pianist:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.fury:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    font-size: large;
+    font-family:  Helvetica,f;
+}
+.names-english {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: gray;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    font-size: smaller;
+    font-family:  Helvetica,f;
+}
+
+.footer {
+    background-color: rgb(23, 25, 28);
+    width: 1340px;
+    height: 200px;
+    position: relative;
+    position: absolute;
+    top: 1600px;
+    margin-top: 80px;
+    
+}
+.mykadri {
+    padding-top: 20px;
+    padding-left: 100px;
+    color: white;
+    font-size: large;
+}
+.filmebi-turkish {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+}
